@@ -1,11 +1,8 @@
-    from colorama import init
+from colorama import init
 
 class Main:
-    def __init__(self, startCheck: bool = False):   
-
-
-
-self.startCheck = startCheck
+    def __init__(self, startCheck: bool = False):
+        self.startCheck = startCheck
 
     def printStart(self):
         print(self.startCheck)

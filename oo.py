@@ -1,26 +1,20 @@
-
-
 from colorama import init
 
+class Main:
+    def __init__(self, startCheck: bool = False):
+        self.startCheck = startCheck
 
-class main(): 
-   def main():
-    startCheck:bool=False
-    if "__name__" == "__main__":
-       def init(self,startCheck:bool):
-        self.startCheck:startCheck
-    
-    start : self.startCheck=startCheck
-def printStart():
-    print(self.startCheck)
-
-    init(startCheck=True)
+    def printStart(self):
+        print(self.startCheck)
 
     def startTimer(self):
-        start : main = main(startCheck=True)
-        
-
+        self.startCheck = True
 
     def checkStart(self):
-            start : main = main(startCheck=True)
-    startTimer(checkStart)
+        self.startCheck = True
+
+if __name__ == "__main__":
+    main_instance = Main(startCheck=True)
+    main_instance.printStart()
+    main_instance.startTimer()
+    main_instance.checkStart()
